@@ -4,8 +4,8 @@ __author__ ='wufulin'
 # 类属性和实例属性的查找顺序
 class A:
     name = 'A'
-    # def __init__(self):
-    #     self.name = 'obj'
+    def __init__(self):
+        self.name = 'obj'
 
 # C3算法
 a = A()
