@@ -85,3 +85,9 @@ if __name__ == "__main__":
     # 在list中随着list数据的增大，查找时间会增大
     # 在dict中查找元素不会随着dict的增大而增大
     print(last_time)
+
+    # dict的key或者set的值 都必须是可以hash的
+    # 不可变对象 都是可hash的， str、fronzenset、tuple自己实现的类 __hash__
+    # dict内存开销大，但查询速度快
+    # dict存储顺序和元素添加顺序有关
+    # 添加数据有可能改变已有数据的顺序
