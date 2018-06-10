@@ -9,3 +9,18 @@ b = a
 print(a is b)
 b.append(4)
 print(a)
+
+b = [1,2,3,4]
+c = [1,2,3,4]
+# b = 1
+# c = 1
+print(b == c)
+print(id(b), id(c))
+print(b is c)
+
+class People:
+    pass
+
+person = People()
+if type(person) is People:
+    print('yes')
